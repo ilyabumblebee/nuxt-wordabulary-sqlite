@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
+    "build": "npm install && nuxi build",
     "preview": "nuxt preview",
     "migrate": "drizzle-kit generate:sqlite",
     "lint": "eslint .",
