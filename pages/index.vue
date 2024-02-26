@@ -48,14 +48,14 @@ const { loggedIn } = useUserSession()
       Welcome to Nuxt Wordabulary Edge.
     </p>
     <p>
-      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener">Nuxt</a> demo hosted on <a :href="hosting.url" target="_blank" rel="noopener" class="text-primary-500">{{ hosting.title }}</a> with server-side rendering on the edge and using <NuxtLink
-        :href="isD1 ? 'https://developers.cloudflare.com/d1/' : 'https://turso.tech'"
+      A <a href="https://nuxt.com" target="_blank" class="text-primary-500" rel="noopener noreferrer">Nuxt</a> demo hosted on <a :href="hosting.url" target="_blank" rel="noopener noreferrer" class="text-primary-500">{{ hosting.title }}</a> with server-side rendering on the edge and using <a
+        href="https://developers.cloudflare.com/d1/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         class="text-primary-500"
       >
-        {{ isD1 ? 'D1' : 'Turso' }} database
-      </NuxtLink>.
+        D1 database
+      </a>.
     </p>
     <hr class="dark:border-gray-700">
     <p class="text-sm text-gray-700 dark:text-gray-300 italic">
