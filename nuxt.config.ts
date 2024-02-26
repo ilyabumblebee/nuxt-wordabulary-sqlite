@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'nuxt-simple-robots'
   ],
+  site: {
+    url: 'https://wordabulary.fun'
+  },
   ui: {
     icons: ['heroicons', 'simple-icons']
   }
