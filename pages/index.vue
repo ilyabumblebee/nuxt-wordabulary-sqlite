@@ -59,8 +59,8 @@ const { loggedIn } = useUserSession()
     </p>
     <hr class="dark:border-gray-700">
     <p class="text-sm text-gray-700 dark:text-gray-300 italic">
-      No personal informations regarding your GitHub account are stored in database.<br>
-      We store only the words created linked with your GitHub ID.
+      No personal informations regarding your Google account are stored in database.<br>
+      We store only the words created linked with your Google ID.
     </p>
   </UCard>
 </template>

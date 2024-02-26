@@ -21,7 +21,7 @@ useSeoMeta({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   title: 'Nuxt Words Edge',
   description:
-    'A Nuxt demo hosted with Edge-side rendering, authentication and queyring a SQLite database',
+    'A Nuxt app hosted with Edge-side rendering, authentication and queyring a SQLite database',
   ogImage: '/social-image.png',
   twitterImage: '/social-image.png',
   twitterCard: 'summary_large_image',
