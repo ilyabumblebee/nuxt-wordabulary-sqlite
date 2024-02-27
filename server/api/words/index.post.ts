@@ -13,7 +13,7 @@ export default eventHandler(async (event) => {
     return sendError(event, createError({
       statusCode: 400,
       statusMessage: 'Validation Error',
-      data: error.message,
+      data: 'Invalid request data. Please ensure your content is a string between 1 and 100 characters.',
     }))
   }
 
