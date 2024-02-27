@@ -12,7 +12,7 @@ export default eventHandler(async (event) => {
     return sendError(event, createError({
       statusCode: 400,
       statusMessage: 'Validation Error',
-      data: error.message,
+      data: 'Failed to delete the word. Please ensure you have provided a valid identifier.',
     }))
   }
   
